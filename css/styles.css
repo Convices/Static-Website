@@ -1,0 +1,169 @@
+/* ---------------------------------------------- variables ------------------------------------------------- */
+/* ---------------------------------------------- Global ------------------------------------------------- */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 14px;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+/* ---------------------------------------------- Home ------------------------------------------------- */
+.home {
+  position: relative;
+  padding-bottom: 100px; }
+
+.background #blue-graphics {
+  right: 0;
+  position: absolute;
+  z-index: -10;
+  width: 53%; }
+
+.background #white-graphics {
+  left: 0;
+  position: absolute;
+  z-index: -10;
+  width: 70%;
+  top: 20%; }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-top: 20px; }
+  nav img {
+    width: 48px; }
+  nav ul {
+    list-style: none;
+    text-align: right;
+    padding-right: 20px; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 5px 20px;
+        border-bottom: 0px;
+        -webkit-transition: 0.1s all ease;
+        -o-transition: 0.1s all ease;
+        transition: 0.1s all ease; }
+      nav ul li a:hover {
+        border-bottom: 2px solid white; }
+  nav .menu {
+    display: none; }
+
+.hero1, .hero2 {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .hero1 .hero-content, .hero2 .hero-content {
+    width: 50%;
+    padding: 5% 10% 0% 5%; }
+    .hero1 .hero-content h1, .hero2 .hero-content h1 {
+      font-size: 1.4rem;
+      color: #373339; }
+    .hero1 .hero-content h2, .hero2 .hero-content h2 {
+      font-size: 1.3rem;
+      font-weight: 400; }
+  .hero1 .illustration, .hero2 .illustration {
+    width: 50%; }
+    .hero1 .illustration img, .hero2 .illustration img {
+      width: 70%; }
+
+.hero2 .hero-content {
+  padding-top: 5% 10% 0% 0%;
+  padding-left: 0; }
+
+.hero2 .illustration {
+  padding-left: 5%; }
+
+.products {
+  margin-top: 0px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  position: relative;
+  overflow-x: hidden; }
+  .products .top-graphics {
+    height: 250px;
+    width: 120%;
+    background: #7481e8;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    position: absolute;
+    top: 170px;
+    z-index: -10; }
+  .products .bottom-graphics {
+    height: 250px;
+    width: 120%;
+    background: #7481e8;
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    position: absolute;
+    bottom: 170px;
+    z-index: -10; }
+  .products .blue-graphics {
+    position: absolute;
+    right: 0;
+    top: 200px;
+    width: 48%;
+    z-index: 0; }
+    .products .blue-graphics img {
+      width: 80%;
+      float: right; }
+  .products .contents {
+    background: #7481e8;
+    padding: 2% 10%; }
+    .products .contents h1.heading {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: white; }
+    .products .contents h3.description {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: white; }
+  .products .product-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px; }
+    .products .product-wrap .product-container {
+      margin: 25px;
+      width: 20%;
+      text-align: center; }
+      .products .product-wrap .product-container .icon img {
+        width: 100px; }
+      .products .product-wrap .product-container h3.product-name {
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 600; }
+      .products .product-wrap .product-container h4.product-description {
+        font-size: 1.1rem;
+        color: white;
+        font-weight: 400; }
