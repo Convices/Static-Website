@@ -167,3 +167,76 @@ nav {
         font-size: 1.1rem;
         color: white;
         font-weight: 400; }
+
+.contact {
+  margin-top: 150px; }
+  .contact .contact-wrapper {
+    background: #f7f8fe;
+    padding: 2% 10%;
+    position: relative;
+    overflow: hidden; }
+    .contact .contact-wrapper h1.heading {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #373339; }
+    .contact .contact-wrapper .contents {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .contact .contact-wrapper .contents .contact-details {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding-top: 25px; }
+        .contact .contact-wrapper .contents .contact-details .container {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin-right: 70px; }
+          .contact .contact-wrapper .contents .contact-details .container .icon {
+            margin-right: 10px; }
+            .contact .contact-wrapper .contents .contact-details .container .icon img {
+              width: 40px; }
+          .contact .contact-wrapper .contents .contact-details .container .description h4 {
+            margin-top: 5px;
+            margin-bottom: 8px;
+            font-weight: 400;
+            color: #373339; }
+      .contact .contact-wrapper .contents .social {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .contact .contact-wrapper .contents .social .icon {
+          margin-left: 20px;
+          cursor: pointer;
+          -webkit-transition: all 0.4s ease;
+          -o-transition: all 0.4s ease;
+          transition: all 0.4s ease; }
+          .contact .contact-wrapper .contents .social .icon img {
+            width: 50px; }
+        .contact .contact-wrapper .contents .social .icon:hover {
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9); }
+  .contact .graphics {
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    width: 200px; }
+
+footer {
+  text-align: center;
+  background: #7481e8;
+  padding: 20px; }
+  footer h3 {
+    color: white;
+    background: #7481e8;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.1rem; }

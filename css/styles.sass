@@ -3,6 +3,7 @@
 
 $black: #373339
 $blue: #7481e8
+$grey: #f7f8fe
 
 
 /* ---------------------------------------------- Global ------------------------------------------------- */
@@ -157,5 +158,72 @@ nav
 				font-size: 1.1rem
 				color: white
 				font-weight: 400
+
+.contact
+	margin-top: 150px
+	.contact-wrapper
+		background: $grey
+		padding: 2% 10%
+		position: relative
+		overflow: hidden
+		h1.heading
+			font-size: 1.4rem
+			font-weight: 700
+			color: $black
+		.contents
+			display: flex
+			justify-content: space-between
+			.contact-details
+				display: flex
+				justify-content: space-between
+				padding-top: 25px
+				.container
+					display: flex
+					margin-right: 70px
+					.icon
+						margin-right: 10px
+						img
+							width: 40px
+					.description
+						h4
+							margin-top: 5px
+							margin-bottom: 8px
+							font-weight: 400
+							color: $black
+			.social
+				display: flex
+				.icon
+					margin-left: 20px
+					cursor: pointer
+					transition: all 0.4s ease
+					img
+						width: 50px
+				.icon:hover
+					transform: scale(0.9)
+	.graphics
+		position: absolute
+		top: -20px
+		right: 0px
+		width: 200px
+
+
+footer
+	text-align: center
+	background: $blue
+	padding: 20px
+	h3
+		color: white
+		background: $blue
+		margin: 0
+		font-weight: 600
+		font-size: 1.1rem
+
+
+
+
+
+
+
+
 
 
