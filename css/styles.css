@@ -168,8 +168,55 @@ nav {
         color: white;
         font-weight: 400; }
 
+.services {
+  margin-top: 0px;
+  padding-bottom: 350px;
+  position: relative;
+  overflow-x: hidden; }
+  .services .grey-graphics {
+    position: absolute;
+    top: 250px;
+    z-index: -20; }
+  .services .contents {
+    padding: 2% 10%; }
+    .services .contents h1.heading {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #7481e8; }
+    .services .contents h3.description {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #373339; }
+    .services .contents .service-cards {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin-left: -2%;
+      margin-right: -2%;
+      margin-top: 80px; }
+      .services .contents .service-cards .service-container {
+        width: 20%;
+        margin: 2%;
+        background: white;
+        border-radius: 8px;
+        text-align: center;
+        -webkit-box-shadow: 0px 20px 58.41px 0.59px rgba(123, 136, 233, 0.18);
+        box-shadow: 0px 20px 58.41px 0.59px rgba(123, 136, 233, 0.18);
+        padding: 40px; }
+        .services .contents .service-cards .service-container .icon > img {
+          width: 70px; }
+        .services .contents .service-cards .service-container h3.services-description {
+          color: #a9adcb;
+          font-weight: 400; }
+
 .contact {
-  margin-top: 150px; }
+  margin-top: 150px;
+  position: relative; }
   .contact .contact-wrapper {
     background: #f7f8fe;
     padding: 2% 10%;
@@ -229,7 +276,8 @@ nav {
     top: -20px;
     right: 0px;
     width: 200px;
-    pointer-events: none; }
+    pointer-events: none;
+    z-index: 1000; }
 
 footer {
   text-align: center;
