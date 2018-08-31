@@ -214,26 +214,62 @@ nav {
           color: #a9adcb;
           font-weight: 400; }
 
-.contact {
+.partners .contents {
+  padding: 2% 10%; }
+  .partners .contents h1.heading {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #7481e8; }
+  .partners .contents h3.description {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #373339; }
+  .partners .contents .partner-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .partners .contents .partner-container .logos {
+      text-align: center;
+      padding: 50px;
+      padding-top: 0px;
+      margin-top: 50px; }
+      .partners .contents .partner-container .logos h1 {
+        font-size: 1.3rem;
+        color: #a9adcb; }
+      .partners .contents .partner-container .logos img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 200px;
+        opacity: 0.7; }
+      .partners .contents .partner-container .logos img:hover {
+        opacity: 1; }
+      .partners .contents .partner-container .logos:first-child {
+        border-right: 1px solid #e3e6fa; }
+
+.contacts {
   margin-top: 150px;
   position: relative; }
-  .contact .contact-wrapper {
+  .contacts .contact-wrapper {
     background: #f7f8fe;
     padding: 2% 10%;
     position: relative;
     overflow: hidden; }
-    .contact .contact-wrapper h1.heading {
+    .contacts .contact-wrapper h1.heading {
       font-size: 1.4rem;
       font-weight: 700;
       color: #373339; }
-    .contact .contact-wrapper .contents {
+    .contacts .contact-wrapper .contents {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between; }
-      .contact .contact-wrapper .contents .contact-details {
+      .contacts .contact-wrapper .contents .contact-details {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -241,37 +277,37 @@ nav {
         -ms-flex-pack: justify;
         justify-content: space-between;
         padding-top: 25px; }
-        .contact .contact-wrapper .contents .contact-details .container {
+        .contacts .contact-wrapper .contents .contact-details .container {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
           margin-right: 70px; }
-          .contact .contact-wrapper .contents .contact-details .container .icon {
+          .contacts .contact-wrapper .contents .contact-details .container .icon {
             margin-right: 10px; }
-            .contact .contact-wrapper .contents .contact-details .container .icon img {
+            .contacts .contact-wrapper .contents .contact-details .container .icon img {
               width: 40px; }
-          .contact .contact-wrapper .contents .contact-details .container .description h4 {
+          .contacts .contact-wrapper .contents .contact-details .container .description h4 {
             margin-top: 5px;
             margin-bottom: 8px;
             font-weight: 400;
             color: #373339; }
-      .contact .contact-wrapper .contents .social {
+      .contacts .contact-wrapper .contents .social {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
-        .contact .contact-wrapper .contents .social .icon {
+        .contacts .contact-wrapper .contents .social .icon {
           margin-left: 20px;
           cursor: pointer;
           -webkit-transition: all 0.4s ease;
           -o-transition: all 0.4s ease;
           transition: all 0.4s ease; }
-          .contact .contact-wrapper .contents .social .icon img {
+          .contacts .contact-wrapper .contents .social .icon img {
             width: 50px; }
-        .contact .contact-wrapper .contents .social .icon:hover {
+        .contacts .contact-wrapper .contents .social .icon:hover {
           -webkit-transform: scale(0.9);
           -ms-transform: scale(0.9);
           transform: scale(0.9); }
-  .contact .graphics {
+  .contacts .graphics {
     position: absolute;
     top: -20px;
     right: 0px;
