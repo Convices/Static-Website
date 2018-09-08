@@ -329,3 +329,160 @@ footer {
     margin: 0;
     font-weight: 600;
     font-size: 1.1rem; }
+
+/* ---------------------------------------------- Media queries ------------------------------------------------- */
+@media (max-width: 1075px) {
+  html {
+    font-size: 13px; }
+  nav ul li a {
+    padding: 5px 12px; }
+  .services {
+    padding-bottom: 180px; }
+    .services .grey-graphics {
+      top: 220px; }
+      .services .grey-graphics img {
+        width: 100%;
+        height: 450px; }
+    .services .contents .service-cards {
+      margin-top: 50px; }
+      .services .contents .service-cards .service-container {
+        padding: 20px; } }
+
+@media (max-width: 900px) {
+  .background #blue-graphics {
+    width: 70%; }
+  .home {
+    padding-bottom: 20px; }
+  .hero1 .illustration img, .hero2 .illustration img {
+    width: 90%;
+    position: relative;
+    top: 50px; }
+  .products .product-wrap {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; } }
+
+@media (max-width: 770px) {
+  nav {
+    display: block; }
+    nav .nav-items {
+      display: none; }
+    nav .menu {
+      display: block;
+      z-index: 500;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 100%; }
+      nav .menu .menu-icon {
+        width: 40px;
+        float: right;
+        margin: 20px;
+        cursor: pointer;
+        z-index: 200; }
+      nav .menu ul {
+        padding-top: 80px; }
+        nav .menu ul li {
+          display: block;
+          background: #f7f8fe;
+          -webkit-box-shadow: 0px 20px 58.41px 0.59px rgba(123, 136, 233, 0.18);
+          box-shadow: 0px 20px 58.41px 0.59px rgba(123, 136, 233, 0.18); }
+          nav .menu ul li a {
+            padding-right: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid white;
+            color: #7481e8; }
+      nav .menu ul.nav-list.selected {
+        display: block;
+        width: 100%; }
+      nav .menu ul.nav-list {
+        display: none;
+        margin-top: 0; }
+  .services .contents .service-cards {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .services .contents .service-cards .service-container {
+      width: 40%; } }
+
+@media (max-width: 540px) {
+  .background #blue-graphics {
+    width: 70%;
+    height: 300px; }
+  .hero1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .hero1 .hero-content {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+      width: 100%;
+      padding-top: 0px; }
+    .hero1 .illustration {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+      width: 70%;
+      position: relative;
+      top: -80px; }
+  .hero2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .hero2 .hero-content {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+      width: 100%;
+      padding-top: 80px; }
+    .hero2 .illustration {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+      width: 70%; }
+  .products {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+    .products .top-graphics {
+      top: 80px; }
+    .products .contents .product-wrap {
+      display: block;
+      margin-top: 50px; }
+      .products .contents .product-wrap .product-container {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px; }
+        .products .contents .product-wrap .product-container .icon > img {
+          width: 80px; }
+    .products .bottom-graphics {
+      bottom: 80px; }
+  .services {
+    padding-bottom: 80px; }
+  .partners .contents .partner-container .logos {
+    padding: 25px; }
+    .partners .contents .partner-container .logos img {
+      width: 120px; } }
+
+@media (max-width: 460px) {
+  .services .contents .service-cards .service-container {
+    width: 80%; } }
