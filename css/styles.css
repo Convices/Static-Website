@@ -348,6 +348,14 @@ footer {
       .services .contents .service-cards .service-container {
         padding: 20px; } }
 
+@media (max-width: 950px) {
+  .contacts .contact-wrapper .contents .contact-details {
+    display: block; }
+    .contacts .contact-wrapper .contents .contact-details .container {
+      margin-bottom: 20px; }
+  .contacts .contact-wrapper .contents .social {
+    padding-top: 25px; } }
+
 @media (max-width: 900px) {
   .background #blue-graphics {
     width: 70%; }
@@ -481,7 +489,12 @@ footer {
   .partners .contents .partner-container .logos {
     padding: 25px; }
     .partners .contents .partner-container .logos img {
-      width: 120px; } }
+      width: 120px; }
+  .contacts .contact-wrapper .contents .social {
+    display: block; }
+    .contacts .contact-wrapper .contents .social .icon img {
+      display: block;
+      width: 40px; } }
 
 @media (max-width: 460px) {
   .services .contents .service-cards .service-container {
