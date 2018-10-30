@@ -76,8 +76,10 @@ nav {
     padding: 5% 10% 0% 5%; }
     .hero1 .hero-content h1, .hero2 .hero-content h1 {
       font-size: 1.4rem;
-      color: #373339; }
+      color: #373339;
+      letter-spacing: 0.9px; }
     .hero1 .hero-content h2, .hero2 .hero-content h2 {
+      font-family: 'Roboto', sans-serif;
       font-size: 1.3rem;
       font-weight: 400; }
   .hero1 .illustration, .hero2 .illustration {
@@ -141,6 +143,7 @@ nav {
       font-weight: 700;
       color: white; }
     .products .contents h3.description {
+      font-family: 'Roboto', sans-serif;
       font-size: 1.2rem;
       font-weight: 400;
       color: white; }
@@ -164,6 +167,7 @@ nav {
         color: white;
         font-weight: 600; }
       .products .product-wrap .product-container h4.product-description {
+        font-family: 'Roboto', sans-serif;
         font-size: 1.1rem;
         color: white;
         font-weight: 400; }
@@ -184,6 +188,7 @@ nav {
       font-weight: 700;
       color: #7481e8; }
     .services .contents h3.description {
+      font-family: 'Roboto', sans-serif;
       font-size: 1.2rem;
       font-weight: 400;
       color: #373339; }
@@ -208,11 +213,14 @@ nav {
         -webkit-box-shadow: 0px 20px 58.41px 0.59px rgba(123, 136, 233, 0.18);
         box-shadow: 0px 20px 58.41px 0.59px rgba(123, 136, 233, 0.18);
         padding: 40px; }
-        .services .contents .service-cards .service-container .icon > img {
+        .services .contents .service-cards .service-container .service-name .icon > img {
           width: 70px; }
-        .services .contents .service-cards .service-container h3.services-description {
-          color: #a9adcb;
-          font-weight: 400; }
+        .services .contents .service-cards .service-container .service-name h3.service-heading {
+          color: #373339;
+          font-weight: 600; }
+        .services .contents .service-cards .service-container .service-description {
+          font-family: 'Roboto', sans-serif;
+          color: #a9adcb; }
 
 .partners .contents {
   padding: 2% 10%; }
@@ -221,6 +229,7 @@ nav {
     font-weight: 700;
     color: #7481e8; }
   .partners .contents h3.description {
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     color: #373339; }
@@ -291,6 +300,7 @@ nav {
             .contacts .contact-wrapper .contents .contact-details .container .icon img {
               width: 40px; }
           .contacts .contact-wrapper .contents .contact-details .container .description h4 {
+            font-family: 'Roboto', sans-serif;
             margin-top: 5px;
             margin-bottom: 8px;
             font-weight: 400;
