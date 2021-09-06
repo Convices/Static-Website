@@ -509,3 +509,7 @@ footer {
 @media (max-width: 460px) {
   .services .contents .service-cards .service-container {
     width: 80%; } }
+.icon.team img{
+    width: 150px !important;
+    border-radius: 10px !important;
+}
